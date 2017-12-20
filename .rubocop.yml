@@ -10,24 +10,24 @@ inherit_from:
 AllCops:
   # Include gemspec and Rakefile
   Include:
-    - "**/*.gemspec"
+    - '**/*.gemspec'
   Exclude:
-    - "vendor/**/*"
-    - "config/unicorn.rb"
-    - "bin/*"
-    - "db/**/*"
-    - "spec/**/*"
-    - "script/rails"
-    - "script/cucumber"
-    - "config/**/*"
-    - "features/**/*"
-    - "Gemfile"
-    - "Gemfile.lock"
-    - "lib/**/*"
-    - "Guardfile"
-    - "Capfile"
-    - "Rakefile"
-    - "config.ru"
+    - 'vendor/**/*'
+    - 'config/unicorn.rb'
+    - 'bin/*'
+    - 'db/**/*'
+    - 'spec/**/*'
+    - 'script/rails'
+    - 'script/cucumber'
+    - 'config/**/*'
+    - 'features/**/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'lib/**/*'
+    - 'Guardfile'
+    - 'Capfile'
+    - 'Rakefile'
+    - 'config.ru'
 Documentation:
     Enabled: false
 # By default, the rails cops are not run. Override in project or home
